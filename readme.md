@@ -3,4 +3,4 @@
 <p align="center">Desktop Results</p>
 <img src="imgs/Recipe Results desktop.png">
 <p align="center">Mobile Results</p>
-<img src="imgs/Recipe Results mobile.png">
+<img src="imgs/Recipe Results mobilepng.png">
