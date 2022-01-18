@@ -1,0 +1,306 @@
+/* Reset do CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Playfair Display', serif; */
+html, body {
+    height: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: #BDBDBD;
+}
+
+body {
+    max-width: 1200px;
+    padding: 0 2%;
+    margin: 0 auto;
+}
+
+/* Header */
+
+header {
+    padding-top: 52px;
+}
+
+header h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+
+header svg {
+    float: left;
+    margin-top: 4px;
+}
+
+header p {
+    margin-left: 12px;
+    max-width: 592px;
+    width: 90%;
+    float: left;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: 17px;
+    margin-bottom: 43px;
+}
+
+header img {
+    width: 100%;
+    margin-bottom: 48px;
+}
+
+/* Main */
+
+main aside {
+    width: 40%;
+    float: right;
+    max-width: 216px;
+}
+
+main article {
+    width: 50%;
+    float: left;
+}
+
+/* aside */
+
+aside {
+    box-shadow: 0px 0px 20px 0px #0000001A;
+    border-radius: 12px;
+    padding: 50px 35px;
+}
+
+aside div {
+    width: 100%;
+    height: 40px;
+}
+
+aside div:nth-child(1n + 2) {
+    margin-top: 30px;
+}
+
+aside svg {
+    float: left;
+}
+
+aside h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+    font-weight: 700;
+    color: #BDBDBD;
+    padding-left: 14px;
+    float: left;
+}
+
+aside p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 4px;
+    padding-left: 14px;
+    float: left;
+}
+
+aside div:first-of-type p {
+    color: #F2994A;
+}
+
+
+/* Article Ingredients */
+article div h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 32px;
+}
+
+
+
+article div form h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+article div form h3:last-of-type {
+    margin-top: 30px;
+}
+
+article div form div label {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    padding-left: 17px;
+    line-height: 25px;
+}
+
+article div form div label span {
+    font-weight: 700;
+}
+
+article div form div input {
+    width: 21px;
+    height: 21px;
+}
+
+article div form div {
+    margin-bottom: 5px;
+}
+
+article div form div:last-of-type {
+    margin-bottom: 30px;
+}
+
+/* Article Instructions */
+article .instructions div {
+    margin-bottom: 20px;
+    position: relative;
+    margin-left: 50px;
+}
+
+article .instructions span{
+    float: left;
+    background-color: #F2994A;
+    padding: 0 16px 6px;
+    text-align: center;
+    color: #Fff;
+    border-radius: 6px;
+    font-family: 'Playfair Display', serif;
+    font-size: 24px;
+    font-weight: 700;
+    width: 48px;
+    position: absolute;
+    left: -56px;
+}
+
+article .instructions div p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    line-height: 20px;
+    max-width: 528px;
+}
+
+article .instructions div p b {
+    font-weight: 700;
+}
+
+#source {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 24px;
+    color:  #BDBDBD;
+    margin-top: 50px;
+}
+
+footer {
+    float: left;
+    width: 100%;
+    margin-top: 50px;
+    padding-bottom: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+    color: #828282;
+
+}
+
+footer span {
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+/* Mobile */
+@media screen  and (max-width:768px){
+    header {
+        padding-top: 32px;
+    }
+    header h1 {
+        font-size: 30px;
+    }
+    header p {
+        font-size: 14px;
+    }
+    header img {
+        margin-bottom: 0;
+    }
+    main aside {
+        float: left;
+        width: 100%;
+        box-shadow: none;
+        padding: 24px 0;
+        max-width: 100%;
+    }
+
+    main aside div {
+        width: 33.3%;
+        float: left;
+        height: auto;
+    }
+    
+    main aside div:first-of-type{
+        width: 100%;
+    }
+
+    main aside div h2{
+        float: none;
+        padding-left: 43px;
+    }
+
+    main aside div p {
+        padding-left: 43px;
+        float: none;
+    }
+
+    main article {
+        width: 100%;
+    }
+}
+
+@media screen  and (max-width:480px) {
+    header h1 {
+        font-size: 24px;
+    }
+    header p {
+        font-size: 12px;
+    }
+    main aside div svg {
+        width: 25px;
+        height: 25px;
+    }
+    main aside h2 {
+        font-size: 8px;
+    }
+    main aside p {
+        font-size: 10px;
+    }
+    article div form div label {
+        padding-left: 8px;
+        font-size: 14px;
+    }
+    main article div h2 {
+        font-size: 18px;
+    }
+    main article div h3 {
+        font-size: 16px;
+    }
+    main .instructions p {
+        font-size: 16px;
+    }
+    #source {
+        font-size: 12px;
+    }
+}
